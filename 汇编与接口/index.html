@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>汇编与接口 - 浙江大学课程攻略共享计划</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u6c47\u7f16\u4e0e\u63a5\u53e3";
+    var mkdocs_page_input_path = "\u6c47\u7f16\u4e0e\u63a5\u53e3.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> 浙江大学课程攻略共享计划</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Java应用技术/">Java应用技术</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../人工智能/">人工智能</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../信息安全原理/">信息安全原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../信息系统安全/">信息系统安全</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../军事理论/">军事理论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../化学实验（乙）/">化学实验（乙）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../固定收益证券与模型/">固定收益证券分析和模型复习</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../图像信息处理/">图像信息处理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../大学英语Ⅲ/">大学英语Ⅲ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../大学英语Ⅳ（H）/">大学英语Ⅳ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../密码学与网络基础/">密码学与网络基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../工程训练/">工程训练</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../常微分方程/">常微分方程</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../操作系统原理/">操作系统原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../操作系统原理实验/">操作系统原理实验</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数值分析/">数值分析</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数学分析（甲）Ⅰ（H）/">数学分析（甲）Ⅰ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数据库系统原理/">数据库系统原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数据结构基础/">数据结构基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通化学（H）/">普通化学（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通物理学Ⅰ（H）/">普通物理学Ⅰ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通物理学Ⅱ（H）/">普通物理学Ⅱ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../机器人学/">机器人学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../概率论与数理统计/">概率论与数理统计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../毕业设计/">毕业设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../毛泽东思想和中国特色社会主义理论体系概论/">毛泽东思想和中国特色社会主义理论体系概论</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">汇编与接口</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#_1">文件列表</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../汇编语言程序设计基础/">汇编语言程序设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../物理化学/">物理化学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../离散数学及其应用/">离散数学及其应用</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../程序设计基础/">程序设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../程序设计方法学/">程序设计方法学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../线性代数/">线性代数</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../综合英语Ⅱ/">综合英语Ⅱ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../编译原理/">Tiger Compiler Module for Programming Exercises</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../编译系统设计/">编译系统设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机体系结构/">计算机体系结构</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机系统概论/">计算机系统概论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机组成/">计算机组成</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机网络基础/">计算机网络基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机视觉/">计算机视觉</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算理论/">计算理论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../资产定价/">资产定价复习</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../软件工程/">软件工程</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../逻辑与计算机设计基础/">逻辑与计算机设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../量子力学/">量子力学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../面向信息技术的沟通技巧/">面向信息技术的沟通技巧</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../面向对象程序设计/">面向对象程序设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../马克思主义基本原理/">马克思主义基本原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../高级数据结构与算法分析/">高级数据结构与算法分析</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">浙江大学课程攻略共享计划</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>汇编与接口</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>本目录下的文件来自曹西301实验室的电脑上，为多年前的实验ppt、参考代码等。由于实验板已经很老了(2004年的)，几乎很难找到有用的相关资料，因此这些多年前的资料在我们进行实验时起到了很大的作用。随着时间推移，实验部分的教学内容和要求都有了很大的变化，这些内容仅供参考。</p>
+<h2 id="_1">文件列表</h2>
+<ul>
+<li>汇编与接口<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口Readme.md">Readme.md</a></li>
+<li>首山雄(x86)<ul>
+<li>实验资料<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料资源获取例程.doc">资源获取例程.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料sxl word版.docx">sxl word版.docx</a></li>
+<li>接口实验<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验8255芯片介绍.ppt">8255芯片介绍.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验实验三.ppt">实验三.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验实验四.ppt">实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验可编程通信接口8250 16550.ppt">可编程通信接口8250 16550.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验8253芯片介绍.ppt">8253芯片介绍.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验实验五.ppt">实验五.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验接口电路8255.ppt">接口电路8255.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验实验二.ppt">实验二.ppt</a></li>
+<li>实验六(09)<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验六(09)8259中断.doc">8259中断.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验六(09)中断调试.rtf">中断调试.rtf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验六(09)8259中断控制器.ppt">8259中断控制器.ppt</a></li>
+</ul>
+</li>
+<li>参考代码<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码LINK.EXE">LINK.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码MASM.EXE">MASM.EXE</a></li>
+<li>实验二<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_3.EXE">EX2_3.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_3.asm.bak">EX2_3.asm.bak</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_3.OBJ">EX2_3.OBJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_1.ASM">EX2_1.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_2.ASM">EX2_2.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二接口电路8255.ppt">接口电路8255.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二EX2_3.ASM">EX2_3.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验二实验二.ppt">实验二.ppt</a></li>
+</ul>
+</li>
+<li>实验5<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5实验5.ppt">实验5.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5EX5.asm.bak">EX5.asm.bak</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5CLOCK.ASM">CLOCK.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5EX5.EXE">EX5.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5EX5.OBJ">EX5.OBJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验5DISPLAY.PPT">DISPLAY.PPT</a></li>
+</ul>
+</li>
+<li>实验六<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六FPGA实验一.ppt">FPGA实验一.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六实验一_SP2_prj.rar">实验一_SP2_prj.rar</a></li>
+<li>SP2_prj<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_prj.ntrc_log">SP2_prj.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.LSO">PS2.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_prj.ise">SP2_prj.ise</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.STX">PS2.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.PRJ">PS2.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.TWX">PS2.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_prj.ise_ISE_Backup">SP2_prj.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.DRC">PS2.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.UCF">PS2.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.PAR">PS2.PAR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_prev_built.ngd">PS2_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.XPI">PS2.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_pad.txt">PS2_pad.txt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_vhdl.prj">PS2_vhdl.prj</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_map.mrp">PS2_map.mrp</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.NGD">PS2.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.XST">PS2.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.PCF">PS2.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.PAD">PS2.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_prj.ipf_ISE_Backup">SP2_prj.ipf_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.cmd_log">PS2.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.NGR">PS2.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_pad.csv">PS2_pad.csv</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_usage.xml">PS2_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.NGC">PS2.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.BLD">PS2.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.BGN">PS2.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.UT">PS2.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_prj.ipf">SP2_prj.ipf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.NCD">PS2.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2_summary.html">SP2_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_map.ngm">PS2_map.ngm</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_summary.html">PS2_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.SYR">PS2.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.BIT">PS2.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjdevice_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.unroutes">PS2.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2.TWR">PS2.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjPS2_map.ncd">PS2_map.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prjSP2.V">SP2.V</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG21<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/XST/WORK/VLG21_P_S2.BIN">_P_S2.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>PS2.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/XST/DUMP.XST/PS2.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/SP2_prj/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>EX6<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.ISE">EX6.ISE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.PCF">EX6.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.PAR">EX6.PAR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.LSO">EX6.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_PAD.CSV">EX6_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.PRJ">EX6.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.XPI">EX6.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6_summary.html">ex6_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_PAD.TXT">EX6_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6.ntrc_log">ex6.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.XST">EX6.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_MAP.NCD">EX6_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.BGN">EX6.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.NGD">EX6.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.V">EX6.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.UCF">EX6.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.STX">EX6.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_VHDL.PRJ">EX6_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6.cmd_log">ex6.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6_usage.xml">ex6_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.SYR">EX6.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_MAP.NGM">EX6_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.TWX">EX6.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.TWR">EX6.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6_MAP.MRP">EX6_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.BLD">EX6.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.BIT">EX6.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.DRC">EX6.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.UT">EX6.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6_prev_built.ngd">ex6_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.NCD">EX6.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.NGC">EX6.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.PAD">EX6.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6device_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6_last_par.ncd">ex6_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6EX6.NGR">EX6.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6.ise_ISE_Backup">ex6.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6ex6.unroutes">ex6.unroutes</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>vlg6B<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/XST/WORK/vlg6BEX6.BIN">EX6.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>EX6.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/XST/DUMP.XST/EX6.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验六/EX6/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验九<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九FPGA实验四.ppt">FPGA实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九实验四_lcd_circuit.rar">实验四_lcd_circuit.rar</a></li>
+<li>EX9<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.SYR">EX9.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.PAR">EX9.PAR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_MAP.NGM">EX9_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.BGN">EX9.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.LSO">EX9.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9LCD.UCF">LCD.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.DRC">EX9.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.NGR">EX9.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_VHDL.PRJ">EX9_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.PAD">EX9.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9__ISE_repository_ex9.ise_.lock">__ISE_repository_ex9.ise_.lock</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9_summary.html">ex9_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.STX">EX9.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.BLD">EX9.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.PRJ">EX9.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.NCD">EX9.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.UT">EX9.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9lcd_summary.html">lcd_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9_last_par.ncd">ex9_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.NGD">EX9.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.V">EX9.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_MAP.NCD">EX9_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.TWX">EX9.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.PCF">EX9.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.ISE">EX9.ISE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9.unroutes">ex9.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9_prev_built.ngd">ex9_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9device_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_MAP.MRP">EX9_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_PAD.CSV">EX9_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9_usage.xml">ex9_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9_PAD.TXT">EX9_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.TWR">EX9.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.NGC">EX9.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9.ise_ISE_Backup">ex9.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.BIT">EX9.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.XST">EX9.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9.cmd_log">ex9.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9ex9.ntrc_log">ex9.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9EX9.XPI">EX9.XPI</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG01<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/VLG01COUNTER1.BIN">COUNTER1.BIN</a></li>
+</ul>
+</li>
+<li>VLG02<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/VLG02COUNTER2.BIN">COUNTER2.BIN</a></li>
+</ul>
+</li>
+<li>vlg6E<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/vlg6EEX9.BIN">EX9.BIN</a></li>
+</ul>
+</li>
+<li>VLG10<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/VLG10COUNTER.BIN">COUNTER.BIN</a></li>
+</ul>
+</li>
+<li>vlg7B<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/vlg7Btime__1ms.bin">time__1ms.bin</a></li>
+</ul>
+</li>
+<li>VLG48<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/WORK/VLG48ANTI.BIN">ANTI.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>EX9.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/XST/DUMP.XST/EX9.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/EX9/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>lcd_circuit<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.NCD">LCD.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_PAD.TXT">LCD_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_VHDL.PRJ">LCD_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.BGN">LCD.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_circuit.ise_ISE_Backup">lcd_circuit.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.XST">LCD.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.LSO">LCD.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.UCF">LCD.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.V">LCD.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.PCF">LCD.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_MAP.MRP">LCD_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_usage.xml">lcd_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit__ISE_repository_lcd_circuit.ise_.lock">__ISE_repository_lcd_circuit.ise_.lock</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_MAP.NGM">LCD_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd.unroutes">lcd.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.TWR">LCD.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.NGD">LCD.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.PAD">LCD.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.BIT">LCD.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_PAD.CSV">LCD_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.BLD">LCD.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_summary.html">lcd_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.STX">LCD.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_last_par.ncd">lcd_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.DRC">LCD.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_circuit.ipf">lcd_circuit.ipf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_prev_built.ngd">lcd_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.PRJ">LCD.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_circuit.ntrc_log">lcd_circuit.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.UT">LCD.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_circuit.ipf_ISE_Backup">lcd_circuit.ipf_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.SYR">LCD.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.XPI">LCD.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD_MAP.NCD">LCD_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.NGR">LCD.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.NGC">LCD.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd_circuit.ise">lcd_circuit.ise</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitlcd.cmd_log">lcd.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.TWX">LCD.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuitLCD.PAR">LCD.PAR</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG01<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/VLG01COUNTER1.BIN">COUNTER1.BIN</a></li>
+</ul>
+</li>
+<li>vlg5F<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/vlg5FLCD.BIN">LCD.BIN</a></li>
+</ul>
+</li>
+<li>VLG02<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/VLG02COUNTER2.BIN">COUNTER2.BIN</a></li>
+</ul>
+</li>
+<li>VLG10<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/VLG10COUNTER.BIN">COUNTER.BIN</a></li>
+</ul>
+</li>
+<li>vlg7B<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/vlg7Btime__1ms.bin">time__1ms.bin</a></li>
+</ul>
+</li>
+<li>VLG48<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/WORK/VLG48ANTI.BIN">ANTI.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>LCD.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/XST/DUMP.XST/LCD.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验九/lcd_circuit/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验一<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验一实验一.ppt">实验一.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验一演示程序.doc">演示程序.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验一EX1.ASM">EX1.ASM</a></li>
+</ul>
+</li>
+<li>实验八<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八实验三_lcd_test.rar">实验三_lcd_test.rar</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八FPGA实验三.ppt">FPGA实验三.ppt</a></li>
+<li>LCD_TEST<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.NCD">LCD.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_PAD.TXT">LCD_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_VHDL.PRJ">LCD_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.BGN">LCD.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.XST">LCD.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST__ISE_repository_lcd_test.ise_.lock">__ISE_repository_lcd_test.ise_.lock</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.LSO">LCD.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.UCF">LCD.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_test.ntrc_log">lcd_test.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.V">LCD.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_TEST.IPF">LCD_TEST.IPF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.PCF">LCD.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_MAP.MRP">LCD_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_usage.xml">lcd_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_MAP.NGM">LCD_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd.unroutes">lcd.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_test.ipf_ISE_Backup">lcd_test.ipf_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.TWR">LCD.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.NGD">LCD.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.PAD">LCD.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.BIT">LCD.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_PAD.CSV">LCD_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.BLD">LCD.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_summary.html">lcd_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.STX">LCD.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_last_par.ncd">lcd_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.DRC">LCD.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.CEL">LCD.CEL</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_test.ise_ISE_Backup">lcd_test.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd_prev_built.ngd">lcd_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.PRJ">LCD.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_TEST.ISE">LCD_TEST.ISE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.UT">LCD.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.SYR">LCD.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.XPI">LCD.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD_MAP.NCD">LCD_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.NGR">LCD.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.NGC">LCD.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTlcd.cmd_log">lcd.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.TWX">LCD.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TESTLCD.PAR">LCD.PAR</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG01<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORK/VLG01COUNTER1.BIN">COUNTER1.BIN</a></li>
+</ul>
+</li>
+<li>vlg5F<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORK/vlg5FLCD.BIN">LCD.BIN</a></li>
+</ul>
+</li>
+<li>VLG10<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORK/VLG10COUNTER.BIN">COUNTER.BIN</a></li>
+</ul>
+</li>
+<li>vlg7B<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORK/vlg7Btime__1ms.bin">time__1ms.bin</a></li>
+</ul>
+</li>
+<li>VLG48<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/WORK/VLG48ANTI.BIN">ANTI.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>LCD.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/XST/DUMP.XST/LCD.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/LCD_TEST/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>EX8<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.NGC">EX8.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8.ntrc_log">ex8.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.LSO">EX8.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8_usage.xml">ex8_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.UT">EX8.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8_prev_built.ngd">ex8_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.PAD">EX8.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.BLD">EX8.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8.ise_ISE_Backup">ex8.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8_summary.html">ex8_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.XPI">EX8.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.BIT">EX8.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.DRC">EX8.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.V">EX8.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.NGR">EX8.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8_last_par.ncd">ex8_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.BGN">EX8.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.SYR">EX8.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_MAP.NGM">EX8_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.NCD">EX8.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_PAD.CSV">EX8_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_VHDL.PRJ">EX8_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.UCF">EX8.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8.cmd_log">ex8.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.ISE">EX8.ISE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.TWX">EX8.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_PAD.TXT">EX8_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.NGD">EX8.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.PRJ">EX8.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.STX">EX8.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8ex8.unroutes">ex8.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_MAP.NCD">EX8_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.PCF">EX8.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8device_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.TWR">EX8.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.XST">EX8.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8_MAP.MRP">EX8_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8EX8.PAR">EX8.PAR</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG01<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORK/VLG01COUNTER1.BIN">COUNTER1.BIN</a></li>
+</ul>
+</li>
+<li>vlg6D<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORK/vlg6DEX8.BIN">EX8.BIN</a></li>
+</ul>
+</li>
+<li>VLG10<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORK/VLG10COUNTER.BIN">COUNTER.BIN</a></li>
+</ul>
+</li>
+<li>vlg7B<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORK/vlg7Btime__1ms.bin">time__1ms.bin</a></li>
+</ul>
+</li>
+<li>VLG48<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/WORK/VLG48ANTI.BIN">ANTI.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>EX8.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/XST/DUMP.XST/EX8.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验八/EX8/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验四<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四实验四.ppt">实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四中断实验.doc.doc">中断实验.doc.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四ex4.asm.bak">ex4.asm.bak</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四EX4.ASM">EX4.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四EX4.EXE">EX4.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四中断调试.rtf">中断调试.rtf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四07.PPT">07.PPT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四EX41.ASM">EX41.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四EX4.OBJ">EX4.OBJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四8259中断控制器.ppt">8259中断控制器.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验四122.PPT">122.PPT</a></li>
+</ul>
+</li>
+<li>实验七<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七实验二_PS2_prj2.rar">实验二_PS2_prj2.rar</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七FPGA实验二.ppt">FPGA实验二.ppt</a></li>
+<li>PS2_prj2<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.LSO">PS2.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.STX">PS2.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.PRJ">PS2.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.TWX">PS2.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.DRC">PS2.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.UCF">PS2.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.PAR">PS2.PAR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_prev_built.ngd">PS2_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.XPI">PS2.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_pad.txt">PS2_pad.txt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_vhdl.prj">PS2_vhdl.prj</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_map.mrp">PS2_map.mrp</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.NGD">PS2.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.XST">PS2.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.PCF">PS2.PCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.PAD">PS2.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.cmd_log">PS2.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.V">PS2.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.NGR">PS2.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_pad.csv">PS2_pad.csv</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_usage.xml">PS2_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.NGC">PS2.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_prj2.ise_ISE_Backup">PS2_prj2.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.BLD">PS2.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.BGN">PS2.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.UT">PS2.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.NCD">PS2.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_map.ngm">PS2_map.ngm</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_summary.html">PS2_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.SYR">PS2.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_prj2.ise">PS2_prj2.ise</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_last_par.ncd">PS2_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.BIT">PS2.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_prj2.ntrc_log">PS2_prj2.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2device_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.unroutes">PS2.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2.TWR">PS2.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2PS2_map.ncd">PS2_map.ncd</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>VLG21<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/XST/WORK/VLG21_P_S2.BIN">_P_S2.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>PS2.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/XST/DUMP.XST/PS2.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/PS2_prj2/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>EX7<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.NCD">EX7.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.BIT">EX7.BIT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.PRJ">EX7.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_PAD.TXT">EX7_PAD.TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_MAP.NGM">EX7_MAP.NGM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7.unroutes">ex7.unroutes</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.STX">EX7.STX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7_IMPACT.CMD">_IMPACT.CMD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.TWR">EX7.TWR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.TWX">EX7.TWX</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7_summary.html">ex7_summary.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.PAD">EX7.PAD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.UCF">EX7.UCF</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_PAD.CSV">EX7_PAD.CSV</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7_last_par.ncd">ex7_last_par.ncd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.NGD">EX7.NGD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7_prev_built.ngd">ex7_prev_built.ngd</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_VHDL.PRJ">EX7_VHDL.PRJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.NGR">EX7.NGR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.XPI">EX7.XPI</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7__ISE_repository_ex7.ise_.lock">__ISE_repository_ex7.ise_.lock</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7_IMPACT.LOG">_IMPACT.LOG</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_MAP.NCD">EX7_MAP.NCD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7.ntrc_log">ex7.ntrc_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7.ise_ISE_Backup">ex7.ise_ISE_Backup</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.BGN">EX7.BGN</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.XST">EX7.XST</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.LSO">EX7.LSO</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7.cmd_log">ex7.cmd_log</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7ex7_usage.xml">ex7_usage.xml</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.NGC">EX7.NGC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.SYR">EX7.SYR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.ISE">EX7.ISE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.V">EX7.V</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.BLD">EX7.BLD</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.UT">EX7.UT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7_MAP.MRP">EX7_MAP.MRP</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.DRC">EX7.DRC</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7device_usage_statistics.html">device_usage_statistics.html</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.PAR">EX7.PAR</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7EX7.PCF">EX7.PCF</a></li>
+<li>XST<ul>
+<li>WORK<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/XST/WORKHDLLIB.REF">HDLLIB.REF</a></li>
+<li>vlg6C<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/XST/WORK/vlg6CEX7.BIN">EX7.BIN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DUMP.XST<ul>
+<li>EX7.PRJ<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/XST/DUMP.XST/EX7.PRJNTRC.SCR">NTRC.SCR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>_NGO<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_NGONETLIST.LST">NETLIST.LST</a></li>
+</ul>
+</li>
+<li>_XMSGS<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGSmap.xmsgs">map.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGSxst.xmsgs">xst.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGStrce.xmsgs">trce.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGSngdbuild.xmsgs">ngdbuild.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGSpar.xmsgs">par.xmsgs</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验七/EX7/_XMSGSbitgen.xmsgs">bitgen.xmsgs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验三<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX.EXE">EX.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3_2.ASM">EX3_2.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三ex3_1.asm.bak">ex3_1.asm.bak</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三ex.asm.bak">ex.asm.bak</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三钢琴.doc">钢琴.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三代码.txt">代码.txt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3_3.ASM">EX3_3.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3_1.EXE">EX3_1.EXE</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX.ASM">EX.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三钢琴.ppt">钢琴.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3_1.OBJ">EX3_1.OBJ</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3.ASM">EX3.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX3_1.ASM">EX3_1.ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/参考代码/实验三EX.OBJ">EX.OBJ</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验二(09)<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)实验二（3）.ppt">实验二（3）.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)实验二（1）.ppt">实验二（1）.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)2(1).TXT">2(1).TXT</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)接口电路8255.ppt">接口电路8255.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)2(2).ASM">2(2).ASM</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验二(09)实验二（2）.ppt">实验二（2）.ppt</a></li>
+</ul>
+</li>
+<li>实验六<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验六FPGA实验一.ppt">FPGA实验一.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验六实验一_SP2_prj.rar">实验一_SP2_prj.rar</a></li>
+</ul>
+</li>
+<li>实验七(09)<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验七(09)电子钟.ppt">电子钟.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验七(09)DISPLAY.PPT">DISPLAY.PPT</a></li>
+</ul>
+</li>
+<li>实验九<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验九FPGA实验四.ppt">FPGA实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验九实验四_lcd_circuit.rar">实验四_lcd_circuit.rar</a></li>
+</ul>
+</li>
+<li>实验一<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验一实验一.ppt">实验一.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验一演示程序.doc">演示程序.doc</a></li>
+</ul>
+</li>
+<li>实验八<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验八实验三_lcd_test.rar">实验三_lcd_test.rar</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验八FPGA实验三.ppt">FPGA实验三.ppt</a></li>
+</ul>
+</li>
+<li>实验五<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验五实验5.ppt">实验5.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验五DISPLAY.PPT">DISPLAY.PPT</a></li>
+</ul>
+</li>
+<li>实验四<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四实验四.ppt">实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四中断实验.doc.doc">中断实验.doc.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四中断调试.rtf">中断调试.rtf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四8259中断控制器.ppt">8259中断控制器.ppt</a></li>
+<li>实验九<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四/实验九FPGA实验四.ppt">FPGA实验四.ppt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验四/实验九实验四_lcd_circuit.rar">实验四_lcd_circuit.rar</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验七<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验七实验二_PS2_prj2.rar">实验二_PS2_prj2.rar</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验七FPGA实验二.ppt">FPGA实验二.ppt</a></li>
+</ul>
+</li>
+<li>实验三<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验三钢琴.doc">钢琴.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验三代码.txt">代码.txt</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/实验资料/接口实验/实验三钢琴.ppt">钢琴.ppt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>试卷<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/试卷汇编试卷 (有答案)-050702v3.doc">汇编试卷 (有答案)-050702v3.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/试卷汇编期末试卷08秋A－（去答案）090114v4.doc">汇编期末试卷08秋A－（去答案）090114v4.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/试卷汇编试卷 (无答案)-050702v3.doc">汇编试卷 (无答案)-050702v3.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/试卷汇编期末试卷09秋A-（含答案）100126V7.doc">汇编期末试卷09秋A-（含答案）100126V7.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/试卷汇编期末试卷08秋A－（含答案）090114v4.doc">汇编期末试卷08秋A－（含答案）090114v4.doc</a></li>
+</ul>
+</li>
+<li>教材<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/教材The Intel Microprocessors 6th 中文.zip">The Intel Microprocessors 6th 中文.zip</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/汇编与接口/首山雄(x86)/教材The Intel Microprocessors, 8th Edition.pdf">The Intel Microprocessors, 8th Edition.pdf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../汇编语言程序设计基础/" class="btn btn-neutral float-right" title="汇编语言程序设计基础">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../毛泽东思想和中国特色社会主义理论体系概论/" class="btn btn-neutral" title="毛泽东思想和中国特色社会主义理论体系概论"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../毛泽东思想和中国特色社会主义理论体系概论/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../汇编语言程序设计基础/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

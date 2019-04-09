@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>数据库系统原理 - 浙江大学课程攻略共享计划</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406";
+    var mkdocs_page_input_path = "\u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> 浙江大学课程攻略共享计划</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Java应用技术/">Java应用技术</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../人工智能/">人工智能</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../信息安全原理/">信息安全原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../信息系统安全/">信息系统安全</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../军事理论/">军事理论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../化学实验（乙）/">化学实验（乙）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../固定收益证券与模型/">固定收益证券分析和模型复习</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../图像信息处理/">图像信息处理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../大学英语Ⅲ/">大学英语Ⅲ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../大学英语Ⅳ（H）/">大学英语Ⅳ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../密码学与网络基础/">密码学与网络基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../工程训练/">工程训练</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../常微分方程/">常微分方程</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../操作系统原理/">操作系统原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../操作系统原理实验/">操作系统原理实验</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数值分析/">数值分析</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数学分析（甲）Ⅰ（H）/">数学分析（甲）Ⅰ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">数据库系统原理</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#_1">文件列表</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../数据结构基础/">数据结构基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通化学（H）/">普通化学（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通物理学Ⅰ（H）/">普通物理学Ⅰ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../普通物理学Ⅱ（H）/">普通物理学Ⅱ（H）</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../机器人学/">机器人学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../概率论与数理统计/">概率论与数理统计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../毕业设计/">毕业设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../毛泽东思想和中国特色社会主义理论体系概论/">毛泽东思想和中国特色社会主义理论体系概论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../汇编与接口/">汇编与接口</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../汇编语言程序设计基础/">汇编语言程序设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../物理化学/">物理化学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../离散数学及其应用/">离散数学及其应用</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../程序设计基础/">程序设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../程序设计方法学/">程序设计方法学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../线性代数/">线性代数</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../综合英语Ⅱ/">综合英语Ⅱ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../编译原理/">Tiger Compiler Module for Programming Exercises</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../编译系统设计/">编译系统设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机体系结构/">计算机体系结构</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机系统概论/">计算机系统概论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机组成/">计算机组成</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机网络基础/">计算机网络基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算机视觉/">计算机视觉</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../计算理论/">计算理论</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../资产定价/">资产定价复习</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../软件工程/">软件工程</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../逻辑与计算机设计基础/">逻辑与计算机设计基础</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../量子力学/">量子力学</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../面向信息技术的沟通技巧/">面向信息技术的沟通技巧</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../面向对象程序设计/">面向对象程序设计</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../马克思主义基本原理/">马克思主义基本原理</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../高级数据结构与算法分析/">高级数据结构与算法分析</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">浙江大学课程攻略共享计划</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>数据库系统原理</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>我的数据库系统实验，包括图书管理系统（基于C#,UWP）和miniSQL（基于Python）。</p>
+<p>GitHub 地址：https://github.com/AlanShaw-GitHub/MiniSQL</p>
+<h2 id="_1">文件列表</h2>
+<ul>
+<li>数据库系统原理<ul>
+<li>资料<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料ReviewFinal.docx">ReviewFinal.docx</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料A4（未修改版）.doc">A4（未修改版）.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料数据库check list.md">数据库check list.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料wth_db_A4.doc">wth_db_A4.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料A4.doc">A4.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料wth_db_A4.pdf">wth_db_A4.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料数据库check list.pdf">数据库check list.pdf</a></li>
+<li>张海 笔记<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记99-review.md">99-review.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记06-relation_database_design.md">06-relation_database_design.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记07-xml.md">07-xml.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记05-entity_relationship_model.md">05-entity_relationship_model.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记03-sql.md">03-sql.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记98-exam.md">98-exam.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记01-introduction.md">01-introduction.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记04-advanced_sql.md">04-advanced_sql.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记09-spacial_database.md">09-spacial_database.md</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/资料/张海 笔记02-relation-model.md">02-relation-model.md</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>试卷<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷2017春夏期末复习.zip">2017春夏期末复习.zip</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷2016春夏期末复习.rar">2016春夏期末复习.rar</a></li>
+<li>数据库系统设计<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统设计2015-2016.pdf">2015-2016.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统设计2015-2016 答案.pdf">2015-2016 答案.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统设计2014.pdf">2014.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统设计2011-2012秋.pdf">2011-2012秋.pdf</a></li>
+</ul>
+</li>
+<li>数据库系统原理<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2005-2006春夏.doc">2005-2006春夏.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2009-2010春.doc">2009-2010春.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2005-2006夏.doc">2005-2006夏.doc</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2008-2009春.pdf">2008-2009春.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2008-2009春 答案.pdf">2008-2009春 答案.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2007-2008春.pdf">2007-2008春.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/试卷/数据库系统原理2007-2008春 答案.pdf">2007-2008春 答案.pdf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>实验<ul>
+<li>肖振新</li>
+<li>张海<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/实验/张海4.pdf">4.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/实验/张海1.pdf">1.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/实验/张海3.pdf">3.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/实验/张海5.pdf">5.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/实验/张海2.pdf">2.pdf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>作业<ul>
+<li>张海<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/作业/张海4.pdf">4.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/作业/张海5.pdf">5.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/作业/张海6.pdf">6.pdf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>教材<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材Database System Concepts (Sixth Edition).pdf">Database System Concepts (Sixth Edition).pdf</a></li>
+<li>Solutions<ul>
+<li>Exercises<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises12.pdf">12.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises04.pdf">04.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises21.pdf">21.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises05.pdf">05.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises09.pdf">09.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises23.pdf">23.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises17.pdf">17.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises16.pdf">16.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises07.pdf">07.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises25.pdf">25.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises18.pdf">18.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises15.pdf">15.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises24.pdf">24.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises22.pdf">22.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises08.pdf">08.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises01.pdf">01.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises03.pdf">03.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises10.pdf">10.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises19.pdf">19.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises26.pdf">26.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises06.pdf">06.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises02.pdf">02.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises13.pdf">13.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises14.pdf">14.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises11.pdf">11.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Exercises20.pdf">20.pdf</a></li>
+</ul>
+</li>
+<li>Practice Exercises<ul>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises8s.pdf">8s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises12s.pdf">12s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises2s.pdf">2s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises17s.pdf">17s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises24s.pdf">24s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises7s.pdf">7s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises26s.pdf">26s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises15s.pdf">15s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises4s.pdf">4s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises14s.pdf">14s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises13s.pdf">13s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises16s.pdf">16s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises5s.pdf">5s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises22s.pdf">22s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises20s.pdf">20s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises3s.pdf">3s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises25s.pdf">25s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises6s.pdf">6s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises19s.pdf">19s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises1s.pdf">1s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises10s.pdf">10s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises18s.pdf">18s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises23s.pdf">23s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises9s.pdf">9s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises11s.pdf">11s.pdf</a></li>
+<li><a href="https://github.com/QSCTech/zju-icicles/raw/master/数据库系统原理/教材/Solutions/Practice Exercises21s.pdf">21s.pdf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../数据结构基础/" class="btn btn-neutral float-right" title="数据结构基础">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../数学分析（甲）Ⅰ（H）/" class="btn btn-neutral" title="数学分析（甲）Ⅰ（H）"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../数学分析（甲）Ⅰ（H）/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../数据结构基础/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
